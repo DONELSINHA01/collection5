@@ -1,0 +1,26 @@
+.openMail{    
+    width: 100%;
+    height: 100%;
+    
+}
+.openMail-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.openMail-content{
+   margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 0 5px gainsboro;
+}
+.o-content{
+    width: 1000px;
+    
+}
+.openMail-buttons{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

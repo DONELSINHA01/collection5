@@ -1,0 +1,51 @@
+.card {
+  width: 360px;
+  height: 100px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap: 20px;
+  border: none;
+  margin-bottom: 7px;
+}
+
+.card h6,
+p,
+small {
+  margin: 0;
+  width:320px
+}
+
+.truncate-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 250px; 
+}
+
+.image {
+  width: 20%;
+}
+
+.person-details {
+  width: 56%;
+}
+
+.logos {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 19px gainsboro;
+
+  .logos {
+    opacity: 1;
+  }
+}
